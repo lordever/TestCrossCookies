@@ -10,7 +10,6 @@ let server = new http.Server(function(req, res) {
   // всю нашу полученную информацию в переменную jsonString
   var jsonString = '';
   res.setHeader('Content-Type', 'application/json');
-  res.setHeader("Set-Cookie", "crossDomainCookies=test");
   req.on('data', (data) => { // Пришла информация - записали.
       jsonString += data;
   });
