@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +8,13 @@
     <title>First static</title>
     <script src="static/welcome/index.js"></script>
 </head>
+
 <body>
-    <h1>Hello world 1</h1>
-    <iframe src="http://seconddomain.gre:3005/welcome" id="secondIframe"></iframe>
+    <h1>First Domain</h1>
+    <button id="btn-setter">Set state</button>
+    <iframe src="http://seconddomain.gre:3005/welcome" id="secondIframe" style="display: none"></iframe>
+    <a href="http://seconddomain.gre:3005/welcome">To Second</a>
+    <a href="http://thirddomain.gre:4005/welcome">To Third</a>
 </body>
+
 </html>
