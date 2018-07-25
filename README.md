@@ -10,7 +10,7 @@ You must first edit the host file with the following values:
 
 
 To run this project, you need to run the scripts in different windows of the terminal at the root of the TestCrossCookies directory:
-`node first.js` and `node second.js`.
+`node first.js` and `node second.js` and `node third.js`.
 
 
 Then in the browser you need to go to URL: `http://firstdomain.gre:8000/welcome` and press a button *Set state*
